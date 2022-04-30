@@ -1,0 +1,59 @@
+Warning: you requested the nanomsg event logger, but bmv2 was compiled without -DBMELOG, and the event logger cannot be activated
+Calling target program-options parser
+[01:37:03.528] [bmv2] [D] [thread 11214] Set default default entry for table 'tbl_basic315': basic315 - 
+[01:37:03.528] [bmv2] [D] [thread 11214] Set default default entry for table 'tbl_add_syn_cnt': MyIngress.add_syn_cnt - 
+[01:37:03.528] [bmv2] [D] [thread 11214] Set default default entry for table 'tbl_basic325': basic325 - 
+[01:37:03.528] [bmv2] [D] [thread 11214] Set default default entry for table 'tbl_basic333': basic333 - 
+[01:37:03.528] [bmv2] [D] [thread 11214] Set default default entry for table 'tbl_basic339': basic339 - 
+[01:37:03.528] [bmv2] [D] [thread 11214] Set default default entry for table 'tbl_add_syn_ack_cnt': MyIngress.add_syn_ack_cnt - 
+[01:37:03.528] [bmv2] [D] [thread 11214] Set default default entry for table 'MyIngress.ip_forward': MyIngress.drop - 
+Adding interface s4-eth1 as port 1
+[01:37:03.530] [bmv2] [D] [thread 11214] Adding interface s4-eth1 as port 1
+Adding interface s4-eth2 as port 2
+[01:37:03.565] [bmv2] [D] [thread 11214] Adding interface s4-eth2 as port 2
+[01:37:03.620] [bmv2] [I] [thread 11214] Starting Thrift server on port 9093
+[01:37:03.623] [bmv2] [I] [thread 11214] Thrift server was started
+[01:37:07.169] [bmv2] [T] [thread 11323] bm_get_config
+[01:37:07.196] [bmv2] [T] [thread 11323] bm_table_add_entry
+[01:37:07.196] [bmv2] [D] [thread 11323] Entry 0 added to table 'MyIngress.ip_forward'
+[01:37:07.196] [bmv2] [D] [thread 11323] Dumping entry 0
+Match key:
+* hdr.ipv4.dstAddr    : LPM       0a000101/16
+Action entry: MyIngress.forward - a000101,1,
+
+[01:37:07.200] [bmv2] [T] [thread 11323] bm_table_add_entry
+[01:37:07.200] [bmv2] [E] [thread 11323] Error when trying to add entry to table 'MyIngress.ip_forward'
+[01:37:07.201] [bmv2] [T] [thread 11323] bm_table_add_entry
+[01:37:07.201] [bmv2] [E] [thread 11323] Error when trying to add entry to table 'MyIngress.ip_forward'
+[01:37:07.203] [bmv2] [T] [thread 11323] bm_table_add_entry
+[01:37:07.203] [bmv2] [D] [thread 11323] Entry 1 added to table 'MyIngress.ip_forward'
+[01:37:07.203] [bmv2] [D] [thread 11323] Dumping entry 1
+Match key:
+* hdr.ipv4.dstAddr    : LPM       0a010501/16
+Action entry: MyIngress.forward - a010501,1,
+
+[01:37:07.205] [bmv2] [T] [thread 11323] bm_table_add_entry
+[01:37:07.205] [bmv2] [E] [thread 11323] Error when trying to add entry to table 'MyIngress.ip_forward'
+[01:37:07.206] [bmv2] [T] [thread 11323] bm_table_add_entry
+[01:37:07.206] [bmv2] [E] [thread 11323] Error when trying to add entry to table 'MyIngress.ip_forward'
+[01:37:07.207] [bmv2] [T] [thread 11323] bm_table_add_entry
+[01:37:07.208] [bmv2] [D] [thread 11323] Entry 2 added to table 'MyIngress.ip_forward'
+[01:37:07.208] [bmv2] [D] [thread 11323] Dumping entry 2
+Match key:
+* hdr.ipv4.dstAddr    : LPM       0a020701/16
+Action entry: MyIngress.forward - a020701,1,
+
+[01:37:07.209] [bmv2] [T] [thread 11323] bm_table_add_entry
+[01:37:07.210] [bmv2] [E] [thread 11323] Error when trying to add entry to table 'MyIngress.ip_forward'
+[01:37:07.211] [bmv2] [T] [thread 11323] bm_table_add_entry
+[01:37:07.211] [bmv2] [D] [thread 11323] Entry 3 added to table 'MyIngress.ip_forward'
+[01:37:07.211] [bmv2] [D] [thread 11323] Dumping entry 3
+Match key:
+* hdr.ipv4.dstAddr    : LPM       0a030901/32
+Action entry: MyIngress.forward - a030901,2,
+
+open: No such file or directory
+open: No such file or directory
+open: No such file or directory
+open: No such file or directory
+open: No such file or directory

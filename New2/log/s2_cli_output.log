@@ -1,0 +1,49 @@
+Obtaining JSON from switch...
+Done
+Control utility for runtime P4 table manipulation
+RuntimeCmd: Adding entry to lpm match table ip_forward
+match key:           LPM-0a:01:05:01/32
+action:              forward
+runtime data:        00:00:0a:01:05:01	00:02
+Entry has been added with handle 0
+RuntimeCmd: Adding entry to lpm match table ip_forward
+match key:           LPM-0a:01:06:01/32
+action:              forward
+runtime data:        00:00:0a:01:06:01	00:03
+Entry has been added with handle 1
+RuntimeCmd: Adding entry to lpm match table ip_forward
+match key:           LPM-0a:00:01:01/16
+action:              forward
+runtime data:        00:00:0a:00:01:01	00:04
+Entry has been added with handle 2
+RuntimeCmd: Adding entry to lpm match table ip_forward
+match key:           LPM-0a:00:02:01/16
+action:              forward
+runtime data:        00:00:0a:00:02:01	00:04
+Invalid table operation (DUPLICATE_ENTRY)
+RuntimeCmd: Adding entry to lpm match table ip_forward
+match key:           LPM-0a:00:03:01/16
+action:              forward
+runtime data:        00:00:0a:00:03:01	00:04
+Invalid table operation (DUPLICATE_ENTRY)
+RuntimeCmd: Adding entry to lpm match table ip_forward
+match key:           LPM-0a:01:04:01/32
+action:              forward
+runtime data:        00:00:0a:01:04:01	00:01
+Entry has been added with handle 3
+RuntimeCmd: Adding entry to lpm match table ip_forward
+match key:           LPM-0a:02:07:01/16
+action:              forward
+runtime data:        00:00:0a:02:07:01	00:04
+Entry has been added with handle 4
+RuntimeCmd: Adding entry to lpm match table ip_forward
+match key:           LPM-0a:02:08:01/16
+action:              forward
+runtime data:        00:00:0a:02:08:01	00:04
+Invalid table operation (DUPLICATE_ENTRY)
+RuntimeCmd: Adding entry to lpm match table ip_forward
+match key:           LPM-0a:03:09:01/16
+action:              forward
+runtime data:        00:00:0a:03:09:01	00:05
+Entry has been added with handle 5
+RuntimeCmd: 
