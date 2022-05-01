@@ -1,11 +1,11 @@
 ## New2
 How to run
 1. Start the topology: sudo p4run
-2. How to conduct TCP SYN Attack- Process 1:
-    a. mininet> xterm h3
-    b. In host 3: hping3 -c 1000 -d 120 -S -w  64 -p 21 --flood 10.0.1.1
-3. How to conduct TCP SYN Attack-Process 2:
-    a. mininet> xterm h3
+2. How to conduct TCP SYN Attack- Process 1://
+    a. mininet> xterm h3//
+    b. In host 3: hping3 -c 1000 -d 120 -S -w  64 -p 21 --flood 10.0.1.1//
+3. How to conduct TCP SYN Attack-Process 2://
+    a. mininet> xterm h3//
     b. In host 3: python -m SimpleHTTPServer 80
     c. mininet> h1 nc -vnz -w 1 10.0.3.1 80-85 
 4. How to conduct UDP Flood Attack:
